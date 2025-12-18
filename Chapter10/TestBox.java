@@ -1,6 +1,7 @@
 //Purpose: Show how wrapping works. This program throws an Integer.intValue() exception becuase
 //this.i is null. In other words, Ingeger i was never initialized.
 //.2) Create a String called s, create an int, wrap s into an Integer and print out x
+//.3) Practice String.format()
 public class TestBox {
 	Integer i = 1;
 	int j;
@@ -18,6 +19,8 @@ public class TestBox {
 		System.out.println(x);
 		System.out.println(j);
 		System.out.println(i);
+		String a = String.format("Variable x is: %d", x);
+		System.out.println(a);
 	}
 		
 }
