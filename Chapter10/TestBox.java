@@ -10,6 +10,9 @@ public class TestBox {
 	String s = "2";
 	double cost = 245678.34;
 	public final static int PS5_COUNT;
+	static{
+		PS5_COUNT = 1;
+	}
 
 	public static void main(String[] args){
 		TestBox t = new TestBox();
