@@ -9,6 +9,7 @@ public class TestBox {
 	int j;
 	String s = "2";
 	double cost = 245678.34;
+	public final static int PS5_COUNT;
 
 	public static void main(String[] args){
 		TestBox t = new TestBox();
