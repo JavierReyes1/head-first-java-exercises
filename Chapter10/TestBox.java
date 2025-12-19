@@ -30,6 +30,7 @@ public class TestBox {
 		String b = String.format("Ferrari cost: %,.2f", cost );
 		System.out.println(a);
 		System.out.println(b);
+		System.out.println(PS5_COUNT);
 	}
 		
 }
