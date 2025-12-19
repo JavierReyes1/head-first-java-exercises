@@ -20,8 +20,15 @@ public class TestBox {
 	public static void main(String[] args){
 		TestBox t = new TestBox();
 		t.go();
+		doStuff(45);
+
 	}
 
+	final static public void doStuff(final int x){
+		//this method can't be overridden  
+		String s = String.format("The value of x is: %d", x);
+		System.out.println(s);
+	}
 	public void go(){
 		j = i;
 		int x = Integer.parseInt(s);
