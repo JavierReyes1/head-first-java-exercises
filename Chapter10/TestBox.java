@@ -12,6 +12,7 @@ public class TestBox {
 	public final static int PS5_COUNT;
 	static double price;
 	static int count;
+
 	static{
 		PS5_COUNT = 1;
 		count = 101;
