@@ -11,8 +11,10 @@ public class TestBox {
 	double cost = 245678.34;
 	public final static int PS5_COUNT;
 	static double price;
+	static int count;
 	static{
 		PS5_COUNT = 1;
+		count = 101;
 	}
 
 	public static void main(String[] args){
@@ -33,6 +35,7 @@ public class TestBox {
 		System.out.println(b);
 		System.out.println(PS5_COUNT);
 		System.out.println(price);
+		System.out.println(count);
 	}
 		
 }
