@@ -16,6 +16,8 @@ public class DateTest{
 		System.out.println(s);//Sun Dec 21 15:59:35 GMT 2025
 		s = String.format("%tr", today);
 		System.out.println(s);
+		s = String.format("%tA, %<tB %<td", today);
+		System.out.println(s);
 
 
 	}
