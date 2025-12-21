@@ -2,11 +2,13 @@
 //Testing how Date object works for time-stamps
 import java.util.Date;
 
-public class DateTest {
+public class DateTest
+{
 
 	Date today = new Date();
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		DateTest dt = new DateTest();
 		dt.go();
 	}
@@ -21,6 +23,5 @@ public class DateTest {
 		System.out.println(s);
 		s = String.format("%tA, %<tB %<td", today);
 		System.out.println(s);
-
 	}
 }
