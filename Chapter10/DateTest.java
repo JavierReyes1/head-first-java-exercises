@@ -24,4 +24,5 @@ public class DateTest
 		s = String.format("%tA, %<tB %<td", today);
 		System.out.println(s);
 	}
+
 }
