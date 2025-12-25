@@ -15,6 +15,10 @@ public class MusicTest1
 		}
 	}//close play
 	
+	public void riskyStuff() throw Exception(){
+		throw new Excpetion();
+	}
+	
 	public static void main(String[]args)
 	{
 		MusicTest1 mt = new MusicTest1();
